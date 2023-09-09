@@ -19,11 +19,11 @@
 ├── index.pug
 └── response.pug
 
---- Виконано npm i
+--- Виконано `npm i`
 
---- Встановлено npm i nodemon -D
+--- Встановлено `npm i nodemon -D`
 
---- Після у файлі package.json для запуску програми в режимі розробки додамо скрипт start:dev
+ --- Після у файлі package.json для запуску програми в режимі розробки додамо скрипт `start:dev`
 
   "scripts": {
     "start": "node ./bin/www",
@@ -32,7 +32,8 @@
 
 # Запуск програми `npm run start:dev`
 
---- Рендер виконується у файлі роутингу 'routes/index.js'
+--- Рендер виконується у файлі роутингу `routes/index.js`
 
---- Встановили 'Chrome Web Store'.
+--- Встановили `Chrome Web Store`.
 
+Start: `http://localhost:3000/`
