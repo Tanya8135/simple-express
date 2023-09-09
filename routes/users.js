@@ -8,6 +8,7 @@ const contacts = [
   { id: '3', username: 'Conan', surname: 'Barbarian', email: 'conan@test.com' },
 ];
 
+/* Закомітила щоб не заважав */
 /* GET users listing. */
 // router.get('/', function (req, res, next) {
 //   res.send('respond with a resource');
