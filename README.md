@@ -36,4 +36,5 @@
 
 --- Встановили `Chrome Web Store`.
 
-Start: `http://localhost:3000/`
+Start: *npm start*
+CTRL + клік по посиланню `http://localhost:3000/`
