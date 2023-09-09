@@ -27,7 +27,6 @@ router.get('/:id', function (req, res, next) {
 module.exports = router;
 
 /* Тепер за зверненням до урлу /users/2 ми отримуємо дані Рудої Соні
-
 [
   {
     "id": "2",
