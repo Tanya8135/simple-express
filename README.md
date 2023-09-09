@@ -30,11 +30,12 @@
     "start:dev": "nodemon ./bin/www"
   },
 
-# Запуск програми `npm run start:dev`
+
 
 --- Рендер виконується у файлі роутингу `routes/index.js`
 
 --- Встановили `Chrome Web Store`.
 
+# Запуск програми
 Start: *npm start*
 CTRL + клік по посиланню `http://localhost:3000/`
