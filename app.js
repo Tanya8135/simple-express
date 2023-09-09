@@ -45,7 +45,7 @@ app.use(function (req, res, next) {
 у сервера, це не помилка і ми створюємо помилку та прокидаємо 
 її далі для обробки. */
 /* Тут і відбувається обробка помилки. Ми прокидаємо змінні 
-message та error у шаблон error.ejs і виконуємо його рендер */
+message та error у шаблон 'error.ejs' і виконуємо його рендер */
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development

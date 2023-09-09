@@ -6,6 +6,9 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* Обробник маршруту */
+/* Приймаємо дві змінні та передаємо їх для рендеру шаблону 
+response.ejs, щоб показати, що дані отримано */
 router.post('/login', (req, res, next) => {
   const { email, password } = req.body;
   res.render('response', { title: 'Simple express app', email, password });
